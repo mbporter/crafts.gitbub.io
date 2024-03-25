@@ -8,12 +8,13 @@ const showCrafts = async () => {
         let section = document.createElement("section");
         craftDiv.append(section);
 
-        let h3 = document.createElement("h3");
-        section.append(h3);
-        h3.innerHTML = craft.name;
+        // let h3 = document.createElement("h3");
+        // section.append(h3);
+        // h3.innerHTML = craft.name;
 
         let img = document.createElement("img");
         img.src = craft.image;
+        img.className = "craft-image";
         img.onclick = () => showModal(craft);
         section.append(img);
     });

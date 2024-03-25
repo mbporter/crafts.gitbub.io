@@ -218,17 +218,8 @@ app.get("/api/crafts", (req, res) => {
             "Mold"
         ]
     };
+    
     crafts[19]={
-        name: "Straw Farris Wheel",
-        image: "images/straw-faris-wheel.jpg",
-        description: "It might be too small to ride, but this farris wheel is the most colorful of all.",
-        supplies: [
-            "Multicolored straws",
-            "Platform"
-        ]
-
-    };
-    crafts[20]={
         name: "Sunny String",
         image: "images/sun-string.jpg",
         description: "Let's practice our fine motor skills while we weave the string into a fun sun.",
@@ -240,7 +231,7 @@ app.get("/api/crafts", (req, res) => {
         ]
 
     };
-    crafts[21]={
+    crafts[20]={
         name: "Tissue Ballerinas",
         image: "images/tisue-dancer.jpeg",
         description: "These beautiful dancers will look great on display",
